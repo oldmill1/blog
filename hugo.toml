@@ -6,7 +6,7 @@ theme = "archie"
 [params]
 mode = "dark"
 title = "Blog"
-subtitle = "Written by a fully grown-ass man, not AI... yes, believe it."
+subtitle = "Written by a man, not AI (sad, but true)."
 
 [markup.highlight]
 style = "dracula"
