@@ -1,0 +1,12 @@
+baseURL = 'https://oldmill1.github.io/blog/'
+languageCode = 'en-us'
+title = 'Blog'
+theme = "archie"
+
+[params]
+mode = "dark"
+title = "Blog"
+subtitle = "Building life, one thought at a time"
+
+[markup.highlight]
+style = "dracula"
