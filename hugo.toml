@@ -1,12 +1,10 @@
 baseURL = 'https://ankur.tax/blog/'
 languageCode = 'en-us'
-title = 'Blog'
-theme = "archie"
+title = 'Ankur Taxali'
 
 [params]
-mode = "dark"
-title = "Blog"
-subtitle = "Written by a man, not AI (sad, but true)."
+byline = 'This is my blog.'
+email = 'ankur@taxali.com'
 
 [markup.highlight]
-style = "dracula"
+style = 'dracula'

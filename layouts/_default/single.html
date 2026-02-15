@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="single-note">
+  <p class="post-date">{{ .Date.Format "Jan 2, 2006" }}</p>
+  <h1>{{ .Title }}</h1>
+  <div class="content">{{ .Content }}</div>
+  <p><a class="back-link" href="{{ "/" | relURL }}#posts">← Back to posts</a></p>
+</article>
+{{ end }}

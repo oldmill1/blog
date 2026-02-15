@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="posts list-page">
+  <h1>Posts</h1>
+  {{ if gt (len .Pages) 0 }}
+    <div class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="post-note">
+          <p class="post-date">{{ .Date.Format "Jan 2, 2006" }}</p>
+          <p class="post-copy"><a href="{{ .RelPermalink }}">{{ .Summary | plainify | truncate 220 }}</a></p>
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="empty">No posts found.</p>
+  {{ end }}
+</section>
+{{ end }}
