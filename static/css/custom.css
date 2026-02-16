@@ -163,6 +163,15 @@ main {
   color: #e5e7eb;
 }
 
+.content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
 .content a,
 .back-link {
   color: var(--link);
